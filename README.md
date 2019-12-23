@@ -9,22 +9,22 @@ This repository has no other purpose than to give test codes for the modules use
 
 List of modules :
   - RF modules :
-    -> NRF24L01
+    - NRF24L01
     
   - Motor modules :
-    -> Stepper motor
+    - Stepper motor
     
 #----------------------------------------------------------------------------------------------------------------------------------
 
 List of codes :
   - RF modules :
     - NRF24L01 :
-      'TEST_NRF24L01_TX_01'
-      'TEST_NRF24L01_RX_01'
+      - TEST_NRF24L01_TX_01
+      - TEST_NRF24L01_RX_01
     
   - Motor modules :
     - Stepper motor
-      'TEST_STEPPER_MOTOR_01'
+      - TEST_STEPPER_MOTOR_01
       
 #----------------------------------------------------------------------------------------------------------------------------------
 
