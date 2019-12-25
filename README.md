@@ -19,8 +19,10 @@ List of modules :
 List of codes :
   - RF modules :
     - NRF24L01 :
-      - TEST_NRF24L01_TX_01.c
-      - TEST_NRF24L01_RX_01.c
+      - TEST_NRF24L01_RX_00.c (generic test)
+      - TEST_NRF24L01_TX_00.c (generic test)
+      - TEST_NRF24L01_RX_01.c (transmitting data with a push button)
+      - TEST_NRF24L01_TX_01.c (transmitting data with a push button)
     
   - Motor modules :
     - Stepper motor
@@ -28,4 +30,4 @@ List of codes :
       
 #----------------------------------------------------------------------------------------------------------------------------------
 
-Updated on 12/23/2019.
+Updated on 12/25/2019.
