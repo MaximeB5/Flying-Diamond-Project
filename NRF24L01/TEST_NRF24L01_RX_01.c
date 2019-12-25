@@ -18,11 +18,9 @@
     Vcc    ->   3.3V
     CE     ->   D9
     CSN    ->   D10
-    CLK    ->   D13
     MOSI   ->   D11
     MISO   ->   D12
-
-This code receive 1 channels and prints the value on the serial monitor.
+    CLK    ->   D13
 */
 
 /**************************************************/

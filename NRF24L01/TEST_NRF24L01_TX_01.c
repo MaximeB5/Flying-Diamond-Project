@@ -18,11 +18,9 @@
     Vcc    ->   3.3V
     CE     ->   D9
     CSN    ->   D10
-    CLK    ->   D13
     MOSI   ->   D11
     MISO   ->   D12
-
-This code transmits 1 channels with data from pins A0 POTENTIOMETER.
+    CLK    ->   D13
 */
 
 #include <SPI.h>
