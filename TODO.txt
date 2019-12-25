@@ -1,0 +1,10 @@
+-- Work To Do --
+
+Test 02 (Rx and Tx) : transmitting data from an analog input (e.g. a joystick)
+Test 03 (local) : controlling a stepper motor
+Test 04 (local) : controlling a brushless motor
+Test 05 (Rx and Tx) : transmitting data from an analog input (e.g. a joystick)
+Test 06 (Rx and Tx) : transmitting data from an analog input (e.g. a joystick) in order to control a stepper motor
+Test 07 (Rx and Tx) : transmitting data from an analog input (e.g. a joystick) in order to control a brushless motor
+
+-- Updated on 12/25/2019 --
