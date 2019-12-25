@@ -42,6 +42,7 @@ struct Data_to_be_sent {
   byte data; 
 };
 
+int iData = 0;
 Data_to_be_sent sent_data;
 
 /**************************************************/
@@ -52,6 +53,7 @@ void setup() {
   radio.setDataRate(RF24_250KBPS);
   radio.openWritingPipe(my_radio_pipe);
 
+  iData = 1;
   sent_data.data = 0;
 
   pinMode(buttonPin, INPUT);
@@ -62,7 +64,12 @@ void setup() {
 /**************************************************/
 
 void loop() {
-  if(digitalRead(buttonPin) == HIGH){	// Button pushed
+//  radio.write(&sent_data, sizeof(Data_to_be_sent));
+
+
+  if(digitalRead(buttonPin) == HIGH){
+    //iData = iData + 1;
+    //sent_data.data = (byte)iData;
     sent_data.data = 1;
     radio.write(&sent_data, sizeof(Data_to_be_sent));
   }

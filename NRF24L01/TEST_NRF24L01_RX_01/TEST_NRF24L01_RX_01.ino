@@ -35,7 +35,7 @@ This code receive 1 channels and prints the value on the serial monitor.
 
 const uint64_t my_radio_pipe = 0xE8E8F0F0E1LL;    // This ID code must be the same as in the transmitter.
 
-RF24 radio(9, 10);                                // CE and CSN pins.
+RF24 radio(9, 10);                        // CE and CSN pins.
 
 // The sizeof this struct should not exceed 32 bytes (max size of data that can be send through the NRF24L01 module).
 struct Received_data {
@@ -48,10 +48,7 @@ Received_data received_data;
 /**************************************************/
 
 void setup() {
-  /*  Considering we're powering both Tx and Rx modules at the same time, we delay the Rx module in order he finds
-      the Tx module (got some issues without that : the Rx module wasn't finding the Tx module).
-  */
-  delay(5000);
+  delay(5000);  // Considering we're powering both Tx and Rx modules at the same time, we delay the Rx module in order he finds Tx without troubles (got some issues without that).
   
   Serial.begin(9600);
 
@@ -72,6 +69,7 @@ void setup() {
 
 unsigned long last_Time = 0;
 
+// Function that will read the data each certain time.
 void receive_the_data() {
   while ( radio.available() )
   {
@@ -83,8 +81,21 @@ void receive_the_data() {
 /**************************************************/
 
 void loop() {
+
   receive_the_data();
+  //ch1_value = received_data.data;
+
   Serial.print("received data -> data : ");
   Serial.println(received_data.data);
+  //Serial.println(ch1_value);
+  
   delay(500);
+
+  /*
+  if (radio.available()) {
+    char text[32] = "";
+    radio.read(&text, sizeof(text));
+    Serial.println(text);
+  }
+  */
 }
