@@ -25,7 +25,7 @@ List of codes :
       - TEST_NRF24L01_TX_01.c (transmitting data with a push button)
     
   - Motor modules :
-    - Stepper motor
+    - Stepper motor 28BYJ-48
       - TEST_STEPPER_MOTOR_01.c
       
 #----------------------------------------------------------------------------------------------------------------------------------
