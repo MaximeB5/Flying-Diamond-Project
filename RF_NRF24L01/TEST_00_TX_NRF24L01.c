@@ -1,7 +1,7 @@
 /*
  * Flying Diamond Project - Test Repository
  * Purpose			:	Test code for the NRF24L01 module (Tx only)
- * File name		:	TEST_NRF24L01_TX_01.c
+ * File name		:	TEST_00_TX_NRF24L01.c
  */
 
 /* Tranmsitter code for the Arduino Radio control with PWM output.
