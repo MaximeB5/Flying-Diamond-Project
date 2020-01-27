@@ -1,9 +1,10 @@
-# FlyingDiamond_Tests
-Flying Diamond Project - Test codes for the modules
+# Flying Diamond Project
+Test codes for the modules
 
 #----------------------------------------------------------------------------------------------------------------------------------
 
 This repository has no other purpose than to give test codes for the modules used in the 'Flying Diamond Project'.
+The final version of the codes used for this project will be placed in the directory nammed Final.
 
 #----------------------------------------------------------------------------------------------------------------------------------
 
@@ -13,6 +14,7 @@ List of modules :
     
   - Motor modules :
     - Stepper motor 28BYJ 48
+    - Brushless motor #REF?
     
 #----------------------------------------------------------------------------------------------------------------------------------
 
@@ -25,6 +27,8 @@ List of codes :
       - TEST_01_TX_NRF24L01.c (transmitting data with a push button)
       - TEST_02_RX_NRF24L01_28BYJ_48.c (receiving hard coded data to control a stepper motor)
       - TEST_02_TX_NRF24L01_28BYJ_48.c (transmitting hard coded data to control a stepper motor)
+      - TEST_03_RX_NRF24L01_ANALOG_DATA (receiving analog data and mapping them for the ESC used to control the brushless motor)
+      - TEST_03_TX_NRF24L01_ANALOG_DATA (transmitting analog data from a potentiometer)
     
   - Motor modules :
     - Stepper motor 28BYJ-48
@@ -32,4 +36,4 @@ List of codes :
       
 #----------------------------------------------------------------------------------------------------------------------------------
 
-Updated on 01/05/2020.
+Updated on 01/27/2020.
