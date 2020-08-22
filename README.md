@@ -39,7 +39,7 @@ List of codes :
       
   - Ultrasonic sensors :
     - HC SR04
-        - HC_SR04_Ultrasonic_Sensor (send an eight cycle sonic burst at 40 kHZ during 10µs and then get the echo if it exists. Repeat this every 500ms)
+        - HC_SR04_Ultrasonic_Sensor.c (send an eight cycle sonic burst at 40 kHZ during 10µs and then get the echo if it exists. Repeat this every 500ms)
       
 #----------------------------------------------------------------------------------------------------------------------------------
 
