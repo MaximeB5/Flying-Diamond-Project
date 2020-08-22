@@ -16,6 +16,8 @@ List of modules :
     - Stepper motor 28BYJ 48
     - Brushless motor #REF?
     
+  - Ultrasonic sensors :
+    - HC SR04
 #----------------------------------------------------------------------------------------------------------------------------------
 
 List of codes :
@@ -34,6 +36,10 @@ List of codes :
     - Stepper motor 28BYJ-48
       - TEST_STEPPER_MOTOR_01.c (basic test, run the motor in one direction then in the other)
       
+  - Ultrasonic sensors :
+    - HC SR04
+        - HC_SR04_Ultrasonic_Sensor (send an eight cycle sonic burst at 40 kHZ during 10µs and then get the echo if it exists. Repeat this every 500ms)
+      
 #----------------------------------------------------------------------------------------------------------------------------------
 
-Updated on 01/27/2020.
+Updated on 08/22/2020.
